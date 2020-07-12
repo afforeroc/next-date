@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""Generate all dates from inputed date to before 2023."""
+"""Generate all dates from inputed date to before 2024."""
 
 
 def leap(year):
@@ -33,7 +33,7 @@ def next_date(year, month, day):
 
 
 def main():
-    """Generate all dates from inputed date to before 2023."""
+    """Generate all dates from inputed date to before 2024."""
     print('Please input a date')
     year = int(input('year: '))
     month = int(input('month: '))
